@@ -22,5 +22,8 @@ from App2 import views as a2
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('vista1/', a1.vista1),
-    path('vista2/', a2.vista2)
+    path('vista2/', a2.vista2),
+    path('vista3/', a1.vista3),
+    path('vista4/', a2.vista4)
+    
 ]
